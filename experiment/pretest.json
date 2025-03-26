@@ -2,38 +2,59 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "What is the key characteristic of Link-State Routing?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Each node maintains only its neighbor's information",
+        "b": "Each node has a complete view of the network topology",
+        "c": "Nodes share routing tables with only one neighbor",
+        "d": "Routes are updated using hop count only"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+      "correctAnswer": "b",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "Which algorithm is used in Link-State Routing to compute the shortest path?",
+      "answers": {
+        "a": "Bellman-Ford Algorithm",
+        "b": "Dijkstra's Algorithm",
+        "c": "Floyd-Warshall Algorithm",
+        "d": "A* Algorithm"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "What type of packet is used in Link-State Routing to share network information?",
+      "answers": {
+        "a": "Link-State Packet (LSP)",
+        "b": "Distance Vector Packet",
+        "c": "Hello Packet",
+        "d": "ACK Packet"
       },
       "correctAnswer": "a",
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "What does a node do after receiving Link-State Packets (LSPs) from all other nodes?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "It forwards them to the destination host",
+        "b": "It reconstructs the entire network topology",
+        "c": "It immediately updates the forwarding table",
+        "d": "It sends the LSPs back to neighbors"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+      "correctAnswer": "b",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "What happens after the Link-State algorithm terminates?",
+      "answers": {
+        "a": "Each node knows the complete least-cost path to all destinations",
+        "b": "Nodes must request updated routing information",
+        "c": "Only the shortest path to a single destination is known",
+        "d": "The algorithm starts again automatically"
       },
-      "correctAnswer": "c",
-      "difficulty": "beginner"
+      "correctAnswer": "a",
+      "difficulty": "advanced"
     }
-  ]
+  ]  
 }
