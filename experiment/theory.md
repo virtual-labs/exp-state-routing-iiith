@@ -27,7 +27,3 @@
 
 ## Example (from *Computer Networking: A Top-Down Approach* - Chapter 5)
 <img src="images/example.svg" style="max-width: 450px; width: 100%;">
-
-### Reference Books
-1. Kurose, J. F., & Ross, K. W. *Computer Networking: A Top-Down Approach*. Pearson.
-2. Tanenbaum, A. S., & Wetherall, D. J. *Computer Networks*. Pearson.
