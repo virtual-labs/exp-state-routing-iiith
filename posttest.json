@@ -1,0 +1,61 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "How often do nodes broadcast Link-State Packets?",
+      "answers": {
+        "a": "Only when the network changes",
+        "b": "At regular intervals or when the network changes",
+        "c": "Once every second",
+        "d": "Only when a data packet is received"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Which of the following best describes the forwarding table in Link-State Routing?",
+      "answers": {
+        "a": "It stores only directly connected neighbors",
+        "b": "It maps each destination to the next-hop node on the shortest path",
+        "c": "It contains the entire network topology",
+        "d": "It lists all possible paths to a destination"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "What is the primary advantage of Link-State Routing over Distance Vector Routing?",
+      "answers": {
+        "a": "Less memory usage",
+        "b": "Faster convergence and no count-to-infinity problem",
+        "c": "Lower processing power required",
+        "d": "Better suited for small networks only"
+      },
+      "correctAnswer": "b",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "How does a node update D(v) for a neighbor v in the Link-State algorithm?",
+      "answers": {
+        "a": "D(v) = max(D(v), D(w) - c(w,v))",
+        "b": "D(v) = D(w) / c(w,v)",
+        "c": "D(v) = min(D(v), D(w) + c(w,v))",
+        "d": "D(v) = sum(D(v), c(w,v))"
+      },
+      "correctAnswer": "c",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "What is the final output of the Link-State algorithm?",
+      "answers": {
+        "a": "A complete routing table containing next-hop nodes",
+        "b": "A set of shortest paths but no forwarding information",
+        "c": "A list of all network devices",
+        "d": "A distance vector for each node"
+      },
+      "correctAnswer": "a",
+      "difficulty": "advanced"
+    }
+  ]
+  
+}

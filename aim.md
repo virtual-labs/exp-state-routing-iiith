@@ -1,0 +1,1 @@
+This module explains the working of **Link State Routing Algorithm** in Computer Networks. It is a major routing algorithm which uses global information for determining least-cost routes.

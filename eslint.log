@@ -1,0 +1,38 @@
+
+/home/runner/work/exp-state-routing-iiith/exp-state-routing-iiith/experiment/simulation/js/main.js
+   18:10  warning  'p1_generateTable' is defined but never used  no-unused-vars
+   52:10  warning  'p1_validateTable' is defined but never used  no-unused-vars
+  108:10  warning  'p2_validate' is defined but never used       no-unused-vars
+  122:5   warning  'chk' is not defined                          no-undef
+  124:9   warning  'chk' is not defined                          no-undef
+  128:5   warning  'chk' is not defined                          no-undef
+  130:9   warning  'chk' is not defined                          no-undef
+  134:5   warning  'chk' is not defined                          no-undef
+  136:9   warning  'chk' is not defined                          no-undef
+  140:5   warning  'chk' is not defined                          no-undef
+  142:11  warning  'chk' is not defined                          no-undef
+  226:10  warning  'p3_validate' is defined but never used       no-unused-vars
+  262:5   warning  'chk' is not defined                          no-undef
+  264:8   warning  'chk' is not defined                          no-undef
+  270:9   warning  'inpArrD' is already defined                  no-redeclare
+  271:9   warning  'inpArrP' is already defined                  no-redeclare
+  274:11  warning  'inpD' is already defined                     no-redeclare
+  275:11  warning  'inpP' is already defined                     no-redeclare
+  281:5   warning  'chk' is not defined                          no-undef
+  283:8   warning  'chk' is not defined                          no-undef
+  289:9   warning  'inpArrD' is already defined                  no-redeclare
+  290:9   warning  'inpArrP' is already defined                  no-redeclare
+  293:11  warning  'inpD' is already defined                     no-redeclare
+  294:11  warning  'inpP' is already defined                     no-redeclare
+  300:5   warning  'chk' is not defined                          no-undef
+  302:8   warning  'chk' is not defined                          no-undef
+  307:9   warning  'inpArrD' is already defined                  no-redeclare
+  308:9   warning  'inpArrP' is already defined                  no-redeclare
+  311:11  warning  'inpD' is already defined                     no-redeclare
+  312:11  warning  'inpP' is already defined                     no-redeclare
+  320:5   warning  'chk' is not defined                          no-undef
+  323:11  warning  'chk' is not defined                          no-undef
+  416:10  warning  'p4_validateTable' is defined but never used  no-unused-vars
+
+✖ 33 problems (0 errors, 33 warnings)
+
