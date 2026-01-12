@@ -34,8 +34,8 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarText">
         <div class="navbar-nav mr-auto">
-          <a class="nav-link active" href="./index.html">Shortest Distance</a>
-          <a class="nav-link" href="./page2.html">Link State</a>
+          <a class="nav-link " href="./index.html">Shortest Distance</a>
+          <a class="nav-link active" href="./page2.html">Link State</a>
           <a class="nav-link " href="./page3.html">Protocol</a>
           <a class="nav-link " href="./page4.html">Practice</a>
       </div>
@@ -43,34 +43,70 @@
     </nav>
     <br>
     <div class="content">
-      <img src="./images/graph1.drawio.svg" class="svg"/>
-      <br><br>
-      <h3>Find the shortest distance between nodes in the above graph</h3>
-      <br />
+      <img
+        src="./images/graph1.drawio.svg" class="svg"/>
+      <br /><br />
+      <h5>Link-State - Node C</h5>
       <table class="table1">
-        <thead>
+        <tbody>
           <tr>
-            <th scope="col">Nodes</th>
-            <th scope="col">Distance</th>
-            <th scope="col">Nodes</th>
-            <th scope="col">Distance</th>
-            <th scope="col">Nodes</th>
-            <th scope="col">Distance</th>
+            <th scope="row">Node</th>
+            <td>A</td>
+            <td>B</td>
+            <td>C</td>
+            <td>D</td>
+            <td>E</td>
+            <td>F</td>
           </tr>
-        </thead>
-
-        <tbody id = "tableBody"></tbody>
-
+          <tr>
+            <th scope="row">Distance</th>
+            <td>2</td>
+            <td>INF</td>
+            <td>-</td>
+            <td>4</td>
+            <td>2</td>
+            <td>INF</td>
+          </tr>
+        </tbody>
       </table>
       <br />
-      <button class="btn" onclick="p1_validateTable()">
+      <h5>Link-State - Node E</h5>
+      <table class="table1">
+        <tbody>
+          <tr>
+            <th scope="row">Node</th>
+            <td>A</td>
+            <td>B</td>
+            <td>C</td>
+            <td>D</td>
+            <td>E</td>
+            <td>F</td>
+          </tr>
+          <tr id="p4_tr1"></tr>
+        </tbody>
+      </table>
+      <br />
+      <h5>Link-State - Node F</h5>
+      <table class="table1">
+        <tbody>
+          <tr>
+            <th scope="row">Node</th>
+            <td>A</td>
+            <td>B</td>
+            <td>C</td>
+            <td>D</td>
+            <td>E</td>
+            <td>F</td>
+          </tr>
+          <tr id="p4_tr2"></tr>
+        </tbody>
+      </table>
+      <br />
+      <button class="btn" onclick="p4_validateTable()">
         Submit
       </button>
     </div>
   </body>
 
   <script src="./js/main.js"></script>
-  <script>
-      p1_generateTable(); // Generate the table on page load
-  </script>
 </html>
